@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Destroys this object when it collides with an object.
@@ -18,6 +19,8 @@ public class RandomSpawner : MonoBehaviour
 	public int wave;
 
 	public int score;
+
+	public Text text;
 
 	void Awake() {
 		StartCoroutine(SpawnUpdate());
@@ -44,5 +47,8 @@ public class RandomSpawner : MonoBehaviour
 
 	private void OnSpawnDestroyed() {
 		score++;
+		if (text != null) {
+			text.text = "Score: " + score;
+		}
 	}
 }

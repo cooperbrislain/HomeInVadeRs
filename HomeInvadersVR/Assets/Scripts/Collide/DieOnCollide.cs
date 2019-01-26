@@ -20,6 +20,10 @@ public class DieOnCollide : Collide
 				if (controller != null) {
 					controller.enabled = false;
 				}
+				RagdollController ragdoll = GetComponent<RagdollController>();
+				if (ragdoll != null) {
+					ragdoll.standupEnabled = false;
+				}
 			}
 			Destroy(gameObject, delay);
 		}
