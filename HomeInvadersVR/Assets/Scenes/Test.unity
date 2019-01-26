@@ -236,6 +236,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 723f719a29bad4d41b1cc7958dbb5de4, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< 93fd54eb424b2a8b653f6c5f2fe5e86ffb980169
 --- !u!1 &998086394
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +323,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8889f520f5925b14abbaf60a483e498f, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> port over files from 2018 project for simple enemy spawning
 --- !u!1 &1137833883
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +390,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< 93fd54eb424b2a8b653f6c5f2fe5e86ffb980169
 --- !u!1001 &2077241359
 Prefab:
   m_ObjectHideFlags: 0
@@ -433,6 +437,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8889f520f5925b14abbaf60a483e498f, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> port over files from 2018 project for simple enemy spawning
 --- !u!1001 &2098705015
 Prefab:
   m_ObjectHideFlags: 0
