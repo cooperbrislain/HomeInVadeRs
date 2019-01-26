@@ -24,6 +24,9 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
+		if (target == null) {
+			return;
+		}
 		Vector3 dir = target.position - transform.position;
 		dir.Normalize();
 		body.AddForce(dir * seekForce);

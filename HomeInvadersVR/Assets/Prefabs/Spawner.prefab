@@ -52,8 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4560312611756254}
-  spawnPrefab: {fileID: 1712622393045298, guid: 1a7e60513148f9e4a977ecc1ac347c5b,
-    type: 2}
+  spawnPrefab: {fileID: 110814, guid: 0f0fc816a799fc241ba6506e8e00af31, type: 2}
   spawnIntervalSecs: 5
   spawnIntervalSecsChangeRate: 0.95
   spawnPoints:
@@ -64,3 +63,4 @@ MonoBehaviour:
   spawnCountPerWaveChangeRate: 1.2
   wave: 0
   score: 0
+  text: {fileID: 0}
