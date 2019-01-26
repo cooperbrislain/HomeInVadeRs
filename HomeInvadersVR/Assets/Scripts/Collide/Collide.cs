@@ -13,9 +13,20 @@ public class Collide : MonoBehaviour {
 		GameObject other = collision.gameObject;
 		if (requiredLayer.value == 0 || (requiredLayer.value & (1 << other.layer)) > 0) {
 			HandleCollision(collision);
+			HandleCollision(collision.collider);
+		}
+	}
+
+	protected virtual void OnTriggerEnter(Collider collider) {
+		GameObject other = collider.gameObject;
+		if (requiredLayer.value == 0 || (requiredLayer.value & (1 << other.layer)) > 0) {
+			HandleCollision(collider);
 		}
 	}
 
 	protected virtual void HandleCollision(Collision collision) {
+	}
+
+	protected virtual void HandleCollision(Collider collider) {
 	}
 }

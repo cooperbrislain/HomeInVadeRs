@@ -35,4 +35,12 @@ public class ForwardCollisions : MonoBehaviour {
 	private void OnCollisionExit(Collision other) {
 		target.SendMessage("OnCollisionExit", other, SendMessageOptions.DontRequireReceiver);
 	}
+
+	private void OnTriggerEnter(Collider other) {
+		target.SendMessage("OnTriggerEnter", other, SendMessageOptions.DontRequireReceiver);
+	}
+
+	private void OnTriggerExit(Collider other) {
+		target.SendMessage("OnTriggerExit", other, SendMessageOptions.DontRequireReceiver);
+	}
 }

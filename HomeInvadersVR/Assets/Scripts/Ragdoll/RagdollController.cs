@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Simple controls
+/// </summary>
 public class RagdollController : MonoBehaviour {
 
 	public bool standupEnabled = true;
@@ -11,6 +14,9 @@ public class RagdollController : MonoBehaviour {
 	public Rigidbody body;
 
 	public float startY = 2;
+	public bool isRagdollEnabled = true;
+
+	private Rigidbody[] _rigidbodies;
 
 	void Awake() {
 		if (body == null) {
@@ -20,6 +26,10 @@ public class RagdollController : MonoBehaviour {
 			head = GetComponent<Rigidbody>();
 		}
 		startY = body.position.y;
+		_rigidbodies = GetComponentsInChildren<Rigidbody>(true);
+		if (!isRagdollEnabled) {
+			SetRagdollEnabled(false);
+		}
 	}
 
 	void Update () {
@@ -38,5 +48,12 @@ public class RagdollController : MonoBehaviour {
 			return controller.body;
 		}
 		return obj.GetComponent<Rigidbody>();
+	}
+
+	public void SetRagdollEnabled(bool enabled) {
+		for (int i = 0; i < _rigidbodies.Length; ++i) {
+			_rigidbodies[i].isKinematic = !enabled;
+		}
+		isRagdollEnabled = enabled;
 	}
 }

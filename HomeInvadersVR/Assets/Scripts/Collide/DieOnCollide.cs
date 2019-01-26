@@ -8,11 +8,12 @@ using UnityEngine;
 public class DieOnCollide : Collide
 {
 	public float delay;
+	public bool enableRagdoll = true;
 
 	private bool _isDestroying;
 
-	protected override void HandleCollision(Collision collision) {
-		GameObject other = collision.gameObject;
+	protected override void HandleCollision(Collider collider) {
+		GameObject other = collider.gameObject;
 		if (!_isDestroying) {
 			_isDestroying = true;
 			if (delay > 0) {
@@ -23,6 +24,9 @@ public class DieOnCollide : Collide
 				RagdollController ragdoll = GetComponent<RagdollController>();
 				if (ragdoll != null) {
 					ragdoll.standupEnabled = false;
+					if (enableRagdoll) {
+						ragdoll.SetRagdollEnabled(true);
+					}
 				}
 			}
 			Destroy(gameObject, delay);
