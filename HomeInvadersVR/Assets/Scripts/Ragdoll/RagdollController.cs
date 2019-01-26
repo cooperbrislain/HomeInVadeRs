@@ -23,10 +23,12 @@ public class RagdollController : MonoBehaviour {
 	}
 
 	void Update () {
-		if (head.position.y < startY) {
-			head.AddForce(standupForce * Vector3.up);
-		} else {
-			head.AddForce(-standupForce * Vector3.up);
+		if (standupEnabled) {
+			if (head.position.y < startY) {
+				head.AddForce(standupForce * Vector3.up);
+			} else {
+				head.AddForce(-standupForce * Vector3.up);
+			}
 		}
 	}
 
