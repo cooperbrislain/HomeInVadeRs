@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ public class AIController : MonoBehaviour
 	public Transform target;
     public Rigidbody body;
 	public float seekForce;
+
+	public event Action Destroyed;
 
     void Start()
     {
@@ -25,4 +28,10 @@ public class AIController : MonoBehaviour
 		dir.Normalize();
 		body.AddForce(dir * seekForce);
     }
+
+	void OnDestroy() {
+		if (Destroyed != null) {
+			Destroyed.Invoke();
+		}
+	}
 }
