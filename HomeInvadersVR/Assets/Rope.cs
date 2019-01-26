@@ -13,13 +13,14 @@ public class Rope : MonoBehaviour
 	private GameObject newLink;
 	
 	void Start () {
-		for (int i = 0; i < ropeLength*100; i+=10)
+		for (int i = 0; i < ropeLength * 100; i += 10)
 		{
-			newLink = Instantiate(ropeLink, new Vector3(0,i*0.01f,0), Quaternion.identity, gameObject.transform);
-			if (i != 0)
+			newLink = Instantiate(ropeLink, new Vector3(0, i * -0.01f, 0), Quaternion.identity, gameObject.transform);
+			HingeJoint hinge = newLink.GetComponent(typeof(HingeJoint)) as HingeJoint;
+			if (i == 0)
 			{
-				
-				HingeJoint hinge = newLink.GetComponent(typeof(HingeJoint)) as HingeJoint;
+				hinge.connectedBody = gameObject.rigidbody;
+			} else {	
 				hinge.connectedBody = prevLink.GetComponent<Rigidbody>();
 			}
 			prevLink = newLink;
