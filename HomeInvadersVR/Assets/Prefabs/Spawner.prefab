@@ -51,11 +51,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94282181d5735a54ca4e4284ecabf0f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 4560312611756254}
   spawnPrefab: {fileID: 1712622393045298, guid: 1a7e60513148f9e4a977ecc1ac347c5b,
     type: 2}
   spawnIntervalSecs: 5
-  target: {fileID: 4560312611756254}
+  spawnIntervalSecsChangeRate: 0.95
   spawnPoints:
   - {x: 40, y: 0, z: 0}
+  - {x: -40, y: 0, z: 0}
   spawnCountPerWave: 5
+  secondsBetweenWaves: 5
+  spawnCountPerWaveChangeRate: 1.2
   wave: 0
+  score: 0

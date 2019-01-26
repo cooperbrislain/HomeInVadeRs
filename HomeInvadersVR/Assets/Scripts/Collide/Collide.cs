@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Destroys this object when it collides with an object.
+/// Base class for collisions.
 /// </summary>
-public class DieOnCollide : MonoBehaviour
-{
+public class Collide : MonoBehaviour {
+
 	public LayerMask requiredLayer;
 
-	void OnCollisionEnter(Collision collision) {
+	protected virtual void OnCollisionEnter(Collision collision) {
 		GameObject other = collision.gameObject;
 		if (requiredLayer.value == 0 || (requiredLayer.value & (1 << other.layer)) > 0) {
-			Destroy(gameObject);
+			HandleCollision(collision);
 		}
+	}
+
+	protected virtual void HandleCollision(Collision collision) {
 	}
 }
