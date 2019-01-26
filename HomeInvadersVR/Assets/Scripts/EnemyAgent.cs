@@ -5,16 +5,19 @@ using UnityEngine.AI;
 
 public class EnemyAgent : MonoBehaviour {
 
-    public Transform goal;
-    NavMeshAgent agent;
+    public Valuable  goal;
+    public string    agentName;
+    NavMeshAgent     agent;
 
 	// Use this for initialization
 	void Start () {
         agent = GetComponent<NavMeshAgent>();
+        EnemyAgentDelegator.GetInstance().AddActiveAgent(this);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        agent.SetDestination(goal.position);
+        if (agent != null && goal != null)
+            agent.SetDestination(goal.transform.position);
 	}
 }
