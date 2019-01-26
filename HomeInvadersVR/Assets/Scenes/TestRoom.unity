@@ -782,17 +782,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1519527482885516, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1053827587498468, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1431238415877784, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
-      propertyPath: m_NavMeshLayer
-      value: 0
+    - target: {fileID: 4074853264394292, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 23.83
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
