@@ -19,7 +19,7 @@ public class Rope : MonoBehaviour
 			HingeJoint hinge = newLink.GetComponent(typeof(HingeJoint)) as HingeJoint;
 			if (i == 0)
 			{
-				hinge.connectedBody = gameObject.rigidbody;
+				hinge.connectedBody = gameObject.GetComponent<Rigidbody>();
 			} else {	
 				hinge.connectedBody = prevLink.GetComponent<Rigidbody>();
 			}
