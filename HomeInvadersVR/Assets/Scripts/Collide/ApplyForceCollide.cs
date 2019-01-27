@@ -11,14 +11,7 @@ public class ApplyForceCollide : Collide {
 
 	protected override void HandleCollision(Collision collision) {
 		Transform other = collision.transform;
-		var forward = other.GetComponent<ForwardCollisions>();
-		if (forward != null) {
-			other = forward.target.transform;
-		}
-		Rigidbody body = RagdollController.GetRigidbody(other.gameObject);
-		if (body == null) {
-			return;
-		}
+		Rigidbody body = GetRigidbody(other);
 		Vector3 transformedForce = transform.TransformDirection(force);
 		body.AddForce(transformedForce);
 	}

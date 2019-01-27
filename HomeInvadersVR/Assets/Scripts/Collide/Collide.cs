@@ -29,4 +29,13 @@ public class Collide : MonoBehaviour {
 
 	protected virtual void HandleCollision(Collider collider) {
 	}
+
+	protected Rigidbody GetRigidbody(Transform other) {
+		var forward = other.GetComponent<ForwardCollisions>();
+		if (forward != null) {
+			other = forward.target.transform;
+		}
+		Rigidbody body = RagdollController.GetRigidbody(other.gameObject);
+		return body;
+	}
 }
