@@ -647,7 +647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a53c98552f82be4dae146e68cf57072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activateDistance: 1
 --- !u!1001 &1418761064
 Prefab:
   m_ObjectHideFlags: 0
@@ -836,26 +835,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 23694780957158342, guid: 15dd0820befe2444bbe4c4821b06c5a4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23882025834913964, guid: 15dd0820befe2444bbe4c4821b06c5a4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23340593264079926, guid: 15dd0820befe2444bbe4c4821b06c5a4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23568859821067774, guid: 15dd0820befe2444bbe4c4821b06c5a4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
   m_IsPrefabParent: 0
@@ -904,7 +883,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570

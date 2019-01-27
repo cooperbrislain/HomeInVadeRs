@@ -26,14 +26,21 @@ public class EnemyAgent : MonoBehaviour {
 	}
 
 	void OnDestroy() {
-		if (carriedItem != null) {
-			carriedItem.transform.parent = null;
-			carriedItem.GetComponent<Rigidbody>().isKinematic = true;
-		}
+        DropItem();
 		if (_delegator != null) {
 			_delegator.RemoveActiveAgent(this);
 		}
 	}
+
+    public void DropItem()
+    {
+        if (carriedItem != null)
+        {
+            carriedItem.transform.parent = null;
+            carriedItem.GetComponentInChildren<Rigidbody>(true).isKinematic = false;
+            carriedItem = null;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {

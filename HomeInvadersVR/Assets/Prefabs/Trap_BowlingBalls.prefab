@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 65603057077921556}
   - component: {fileID: 136764799033470826}
   - component: {fileID: 114115085808846750}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Trap_BowlingBalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

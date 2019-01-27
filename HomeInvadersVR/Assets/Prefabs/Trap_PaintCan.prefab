@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4325721509511288}
   - component: {fileID: 33949159522704918}
   - component: {fileID: 23933733534289920}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4208785784780356}
   - component: {fileID: 33710407009005078}
   - component: {fileID: 23334186330214956}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 135444546314522820}
   - component: {fileID: 54716641910538254}
   - component: {fileID: 59811542390558828}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 135776091412473252}
   - component: {fileID: 54474654007578222}
   - component: {fileID: 59964404551050832}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 4225308058358776}
   - component: {fileID: 33561646582536378}
   - component: {fileID: 23308548673579322}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 4205757550849196}
   - component: {fileID: 33837327973113602}
   - component: {fileID: 23160335904579320}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 135772878393545192}
   - component: {fileID: 54266594240278366}
   - component: {fileID: 59947285443352592}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 4393815821357682}
   - component: {fileID: 33852598131176286}
   - component: {fileID: 23098086836102064}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 135541619429521990}
   - component: {fileID: 54958088864171596}
   - component: {fileID: 59570719657130340}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 4662932337183966}
   - component: {fileID: 33624823578352866}
   - component: {fileID: 23077065807612540}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 4608572997674740}
   - component: {fileID: 33837244469512642}
   - component: {fileID: 23343215099896522}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 135257278497767166}
   - component: {fileID: 54734660619259978}
   - component: {fileID: 59990942833693604}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 4765307107925506}
   - component: {fileID: 33097901869818656}
   - component: {fileID: 23336397350184642}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 135007259847115598}
   - component: {fileID: 54361696283241210}
   - component: {fileID: 59049189127826354}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 135848257230990804}
   - component: {fileID: 54975962574174406}
   - component: {fileID: 59761297018949430}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 135767997005946310}
   - component: {fileID: 54068573285202714}
   - component: {fileID: 59378218544658264}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 135531951048420958}
   - component: {fileID: 54116815180795798}
   - component: {fileID: 59305979872606010}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 4814468322869294}
   - component: {fileID: 33525490133123890}
   - component: {fileID: 23340234008495958}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 4171240392705560}
   - component: {fileID: 65619220233015042}
   - component: {fileID: 114969061252312832}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Trap_PaintCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 135236063378303006}
   - component: {fileID: 54181700532434696}
   - component: {fileID: 59797306546663368}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 4980672001548884}
   - component: {fileID: 33414713984813110}
   - component: {fileID: 23051573466954356}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 4057406940989310}
   - component: {fileID: 33400913319737924}
   - component: {fileID: 23464582361836794}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 135552505441501766}
   - component: {fileID: 54820683984666026}
   - component: {fileID: 59626654816114688}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 4292693046677398}
   - component: {fileID: 33794939920539402}
   - component: {fileID: 23079227778208482}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment-mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 135912103297965850}
   - component: {fileID: 54751669462762764}
   - component: {fileID: 59878110401008974}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-segment10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4643010621582100}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: rope-can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1734595995542108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 4.1, z: 8.59}
+  m_LocalPosition: {x: -15.215247, y: 2.7831664, z: -31.607983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4643010621582100}
@@ -2088,7 +2088,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1.5, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.0000009536743, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 0.0000076293945, z: -0.000003576276}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2156,7 +2156,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 4.47, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.1700015, z: 0.000000596046}
+  m_ConnectedAnchor: {x: 0, y: -0.16999245, z: -0.000002384184}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2190,7 +2190,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1.5, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.0000019073486, z: 0.000002384184}
+  m_ConnectedAnchor: {x: 0, y: 0.0000076293945, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2224,7 +2224,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1.5, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.0000038146973, z: 0}
+  m_ConnectedAnchor: {x: 0, y: -0.000005722046, z: 0.000002384184}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2258,7 +2258,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1.5, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.03, y: 4.0254955, z: 8.6677}
+  m_ConnectedAnchor: {x: 0.029999733, y: 4.0254955, z: 8.6677}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2326,7 +2326,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1.5, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.0000019073486, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 0.000011444092, z: -0.000004768368}
   m_UseSpring: 0
   m_Spring:
     spring: 0

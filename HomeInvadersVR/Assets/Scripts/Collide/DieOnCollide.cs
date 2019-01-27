@@ -17,10 +17,16 @@ public class DieOnCollide : Collide
 		if (!_isDestroying) {
 			_isDestroying = true;
 			if (delay > 0) {
-				AIController controller = GetComponent<AIController>();
+                EnemyAgent agent = GetComponent<EnemyAgent>();
+                if (agent != null) {
+                    agent.DropItem();
+                }
+                    
+                AIController controller = GetComponent<AIController>();
 				if (controller != null) {
 					controller.enabled = false;
 				}
+
 				RagdollController ragdoll = GetComponent<RagdollController>();
 				if (ragdoll != null) {
 					ragdoll.standupEnabled = false;

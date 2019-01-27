@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Goal : MonoBehaviour {
-    public          float activateDistance = 0.25f;
+    [System.NonSerialized]
+    public          float activateDistance = 1.0f;
     public abstract bool  IsValuable();
 }
