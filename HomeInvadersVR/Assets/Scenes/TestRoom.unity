@@ -806,6 +806,200 @@ Prefab:
       propertyPath: m_Center.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1666217249507102, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Living Room Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594180771937094, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 108749244122262584, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 108749244122262584, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108749244122262584, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_BounceIntensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108749244122262584, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528302513037930, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528302513037930, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 13.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528302513037930, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 108768349209752642, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Range
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803621112412990, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Kitchen Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357526701582058, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 108030847865139186, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Range
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504775354547506, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Garage Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168544750573330, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Bathroom Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449483241735518, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Office Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887476425927464, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Hall Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477735597701140, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 35.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477735597701140, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477735597701140, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 108450432361186390, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Range
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 108450432361186390, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108227098530985404, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Range
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 108171803780806874, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108756273645454024, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108497069481724404, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108227098530985404, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108007669895677766, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108359169223092376, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108768349209752642, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108030847865139186, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108247799970825494, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108658025558689876, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108428363531047218, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 108496082392681348, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317224995194204, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Hall Light 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241534669576382, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Bedroom 1 Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606582784499372, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Master Bath Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432610406642100, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Hall Light 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903375545599686, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Master Study Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251109585150764, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Master Bed Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079147375275458, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
+      propertyPath: m_Name
+      value: Bedroom 2 Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 108497069481724404, guid: 15dd0820befe2444bbe4c4821b06c5a4,
+        type: 2}
+      propertyPath: m_Range
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15dd0820befe2444bbe4c4821b06c5a4, type: 2}
   m_IsPrefabParent: 0
