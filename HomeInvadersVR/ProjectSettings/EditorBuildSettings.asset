@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 6f73ea9a990b74947a5e330ecaf600b3
+  - enabled: 1
+    path: Assets/Scenes/TeleportOnNavMesh.unity
+    guid: 0cab5fa27707fc84a8d9a0af95ae691d
