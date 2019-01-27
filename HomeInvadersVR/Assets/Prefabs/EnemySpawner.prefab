@@ -53,9 +53,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveData:
   - spawnPrefabs:
-    - {fileID: 1740552702939276, guid: e9cf8eb4b1431214f84c5822d5fa7f3b, type: 2}
+    - {fileID: 1740552702939276, guid: f1da3c4e3bc381841b61b31e6490dee7, type: 2}
     spawnDelay: 3
     baseSpawnCount: 0
+    itemPrefabs: []
+    itemPositions: []
+    itemCount: 0
   target: {fileID: 0}
   spawnIntervalSecs: 5
   spawnIntervalSecsChangeRate: 0.95

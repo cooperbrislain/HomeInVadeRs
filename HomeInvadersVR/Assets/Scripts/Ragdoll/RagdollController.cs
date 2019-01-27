@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class RagdollController : MonoBehaviour {
 
-	public bool standupEnabled = true;
+	public bool standupEnabled = false;
 	public float standupForce = 10;
 	public float fallForce = 5;
 	public Rigidbody head;
@@ -25,7 +25,9 @@ public class RagdollController : MonoBehaviour {
 		if (head == null) {
 			head = GetComponent<Rigidbody>();
 		}
-		startY = body.position.y;
+		if (body != null) {
+			startY = body.position.y;
+		}
 		_rigidbodies = GetComponentsInChildren<Rigidbody>(true);
 		if (!isRagdollEnabled) {
 			SetRagdollEnabled(false);

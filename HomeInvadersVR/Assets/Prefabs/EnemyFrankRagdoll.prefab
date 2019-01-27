@@ -2553,7 +2553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b17a6191cdd1dd541a028356763a99df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standupEnabled: 1
+  standupEnabled: 0
   standupForce: 1000
   fallForce: 300
   head: {fileID: 54302755357910610}

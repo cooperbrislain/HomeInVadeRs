@@ -13,6 +13,9 @@ public class RandomSpawner : MonoBehaviour
 		public GameObject[] spawnPrefabs;
 		public float spawnDelay;
 		public int baseSpawnCount;
+		public GameObject[] itemPrefabs;
+		public Vector3[] itemPositions;
+		public int itemCount;
 	};
 	public WaveData[] waveData;
 	public Transform target;		// target that they seek
@@ -40,6 +43,14 @@ public class RandomSpawner : MonoBehaviour
 			WaveData currentWaveData = waveData[waveDataIndex];
 			float spawnCount = spawnCountPerWave + currentWaveData.baseSpawnCount;
 
+			// spawn items
+			for (int i = 0; i < currentWaveData.itemCount; ++i) {
+				GameObject itemPrefab = currentWaveData.itemPrefabs[i % currentWaveData.itemPrefabs.Length];
+				Vector3 pos = currentWaveData.itemPositions[i % currentWaveData.itemPositions.Length];
+				GameObject item = Instantiate(itemPrefab, pos, Quaternion.identity);
+				item.transform.SetParent(transform, true);
+			}
+
 			for (int i = 0; i < spawnCountPerWave; ++i) {
 				int slot = Random.Range(0, spawnPoints.Count);
 				Vector3 pos = spawnPoints[slot];
@@ -55,6 +66,7 @@ public class RandomSpawner : MonoBehaviour
 					ai.target = target;
 					ai.Destroyed += OnSpawnDestroyed;
 				}
+
 				yield return new WaitForSeconds(spawnIntervalSecs);
 			}
 			spawnCountPerWave *= spawnCountPerWaveChangeRate;
