@@ -22,6 +22,10 @@ public class EnemyAgentDelegator : MonoBehaviour {
         _activeAgents.Add(agent);
     }
 
+	public void RemoveActiveAgent(EnemyAgent agent) {
+		_activeAgents.Remove(agent);
+	}
+
     private void Awake()
     {
         if (_instance == null)

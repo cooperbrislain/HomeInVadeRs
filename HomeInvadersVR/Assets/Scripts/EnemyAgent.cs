@@ -16,6 +16,10 @@ public class EnemyAgent : MonoBehaviour {
         agent = GetComponent<NavMeshAgent>();
         EnemyAgentDelegator.GetInstance().AddActiveAgent(this);
 	}
+
+	void OnDestroy() {
+		EnemyAgentDelegator.GetInstance().RemoveActiveAgent(this);
+	}
 	
 	// Update is called once per frame
 	void Update () {
