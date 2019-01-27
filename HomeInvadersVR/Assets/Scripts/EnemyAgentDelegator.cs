@@ -23,6 +23,10 @@ public class EnemyAgentDelegator : MonoBehaviour {
     }
 
 	public void RemoveActiveAgent(EnemyAgent agent) {
+		Valuable valuable = agent.goal as Valuable;
+		if (valuable != null && !_rankedValuables.ContainsKey(valuable.valueRank)) {
+			_rankedValuables.Add(valuable.valueRank, valuable);
+		}
 		_activeAgents.Remove(agent);
 	}
 
