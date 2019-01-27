@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4278845684392878}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightAttach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4420933239565180}
   - component: {fileID: 33873417676888912}
   - component: {fileID: 23994139020927116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4085856421687344}
   - component: {fileID: 33765552624425682}
   - component: {fileID: 23091583786616354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 4687835465842316}
   - component: {fileID: 33972858604029354}
   - component: {fileID: 23746885814226128}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4496259341777910}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: legobin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 114399775440062910}
   - component: {fileID: 114998521587325046}
   - component: {fileID: 65495901435675550}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LegoPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 4809113032981118}
   - component: {fileID: 33646335553690892}
   - component: {fileID: 23185161446921594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 4792017573593424}
   - component: {fileID: 33591333386253632}
   - component: {fileID: 23652664499468744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 4353206480493504}
   - component: {fileID: 33519417125665474}
   - component: {fileID: 23555642698654754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 4779435924192364}
   - component: {fileID: 33849943078505744}
   - component: {fileID: 23553186591711354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 4593390416990342}
   - component: {fileID: 33035320598149192}
   - component: {fileID: 23284118541562852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 4046626899562116}
   - component: {fileID: 33110266574825468}
   - component: {fileID: 23448002120230508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 4523099535813896}
   - component: {fileID: 33053574636690974}
   - component: {fileID: 23310674084448400}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1201625051926112}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.86, y: 0.587, z: -0.11}
+  m_LocalPosition: {x: 0.63, y: 0.587, z: -0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4578541113782858}
@@ -339,8 +339,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1427736697265270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.4709697, y: 1.4071482, z: 14.850983}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: 4.874176, y: -0.8269689, z: -3.089386}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
   - {fileID: 4496259341777910}
   - {fileID: 4278845684392878}
