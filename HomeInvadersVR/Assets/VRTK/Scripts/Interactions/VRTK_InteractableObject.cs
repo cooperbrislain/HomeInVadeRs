@@ -1211,7 +1211,13 @@ namespace VRTK
             if (usingObject != null && (usingObject.gameObject.activeInHierarchy || forceDisabled))
             {
                 usingObject.GetComponent<VRTK_InteractTouch>().ForceStopTouching();
-                usingObject.GetComponent<VRTK_InteractUse>().ForceStopUsing();
+                if(usingObject != null)
+                {
+                    VRTK_InteractUse use = usingObject.GetComponent<VRTK_InteractUse>();
+                    if (use != null)
+                        use.ForceStopUsing();
+                }
+
             }
         }
 

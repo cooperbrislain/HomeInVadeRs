@@ -37,6 +37,7 @@ public class GroundTrapPickup : VRTK_InteractableObject {
     public void DisablePlacement()
     {
         _placementValid = false;
+        DisableUsing();
     }
 
     public override void StartUsing(VRTK_InteractUse usingObject)
@@ -46,18 +47,27 @@ public class GroundTrapPickup : VRTK_InteractableObject {
         GetComponentInChildren<BoxCollider>().enabled = false;
         usingObject.GetComponent<VRTK_Pointer>().Toggle(true);
         ActivePickup = this;
+        GroundTrapPlacementPlane.GetInstance().gameObject.SetActive(true);
+        TogglePlacementVisible(true);
     }
 
     public override void StopUsing(VRTK_InteractUse usingObject)
     {
-        GetComponentInChildren<BoxCollider>().enabled = true;
+        DisableUsing();
         usingObject.GetComponent<VRTK_Pointer>().Toggle(false);
-        ActivePickup = null;
 
         if (_placementValid)
             SpawnTrap();
 
         base.StopUsing(usingObject);
+    }
+
+    void DisableUsing()
+    {
+        TogglePlacementVisible(false);
+        GroundTrapPlacementPlane.GetInstance().gameObject.SetActive(false);
+        GetComponentInChildren<BoxCollider>().enabled = true;
+        ActivePickup = null;
     }
 
     void SpawnTrap()
