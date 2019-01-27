@@ -55,5 +55,13 @@ public class RagdollController : MonoBehaviour {
 			_rigidbodies[i].isKinematic = !enabled;
 		}
 		isRagdollEnabled = enabled;
+		UnityEngine.AI.NavMeshAgent agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+		if (agent != null) {
+			agent.enabled = !enabled;
+		}
+		EnemyAgent enemy = GetComponent<EnemyAgent>();
+		if (enemy != null) {
+			enemy.enabled = !enabled;
+		}
 	}
 }

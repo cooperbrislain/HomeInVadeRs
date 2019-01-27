@@ -25,7 +25,7 @@ public class EnemyAgent : MonoBehaviour {
 	void Update () {
         if (goal)
         {
-            if (agent != null)
+			if (agent != null && agent.enabled)
                 agent.SetDestination(goal.transform.position);
 
             // If we are close enough to the object to pick it up (Only on the X/Z plane)
