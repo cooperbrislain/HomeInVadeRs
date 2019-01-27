@@ -63,6 +63,8 @@ ModelImporter:
     100114: Ctrls
     100116: frontRef
     100118: SideRef
+    100120: ikHandle1
+    100122: ikHandle2
     400000: //RootNode
     400002: head
     400004: headEnd
@@ -123,6 +125,8 @@ ModelImporter:
     400114: Ctrls
     400116: frontRef
     400118: SideRef
+    400120: ikHandle1
+    400122: ikHandle2
     2100000: lambert1
     2100002: lambert2
     2100004: lambert3
