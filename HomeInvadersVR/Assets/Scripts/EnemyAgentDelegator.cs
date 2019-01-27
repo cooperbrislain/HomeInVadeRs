@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK;
 
 public class EnemyAgentDelegator : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class EnemyAgentDelegator : MonoBehaviour {
     public  static EnemyAgentDelegator GetInstance() { return _instance; }
 
     public float EnemyUpdateFrequency = 1.0f; // How often to update the enemy actors in seconds
+	public Vector3 JailPosition = new Vector3(-30, 0, 0);  // Position you go to when hit by enemies
 
     List<EnemyAgent>          _activeAgents = new List<EnemyAgent>();
     Valuable[]                _valuables;
@@ -16,6 +18,7 @@ public class EnemyAgentDelegator : MonoBehaviour {
     float                     _updateTimer;
 
 
+	public Transform VRHeadset;
 
     public void AddActiveAgent(EnemyAgent agent) {
         Debug.Log("Adding active agent: " + agent.agentName);
@@ -24,7 +27,7 @@ public class EnemyAgentDelegator : MonoBehaviour {
 
 	public void RemoveActiveAgent(EnemyAgent agent) {
 		Valuable valuable = agent.goal as Valuable;
-		if (valuable != null && !_rankedValuables.ContainsKey(valuable.valueRank)) {
+		if (valuable != null && !_rankedValuables.ContainsValue(valuable)) {
 			_rankedValuables.Add(valuable.valueRank, valuable);
 		}
 		_activeAgents.Remove(agent);
@@ -37,6 +40,12 @@ public class EnemyAgentDelegator : MonoBehaviour {
     }
 
     void Start() {
+		var headset = FindObjectOfType<VRTK_TrackedHeadset>();
+		if (headset != null) {
+			VRHeadset = headset.transform;
+		} else {
+			VRHeadset = transform;
+		}
         InitValuables();
     }
 
@@ -61,6 +70,8 @@ public class EnemyAgentDelegator : MonoBehaviour {
     {
         foreach(EnemyAgent agent in _activeAgents)
         {
+			agent.CheckForPlayer();
+
             // Skip any agents with active goals
             if (agent.goal != null) continue;
 

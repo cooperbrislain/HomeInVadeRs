@@ -12,12 +12,19 @@ public class RepulseCollide : Collide {
 
 	protected override void HandleCollision(Collision collision) {
 		Transform other = collision.transform;
-		Rigidbody body = other.GetComponent<Rigidbody>();
+		Rigidbody body = GetRigidbody(other);
 		if (body == null) {
 			return;
 		}
 		Vector3 forceVec = (other.position - transform.position).normalized * force;
 		forceVec.y += upForce;
-		body.AddForce(forceVec);
+		StartCoroutine(DelayedAddForce(body, forceVec));
+	}
+
+	private IEnumerator DelayedAddForce(Rigidbody body, Vector3 forceVec) {
+		yield return null;
+		if (body != null) {
+			body.AddForce(forceVec);
+		}
 	}
 }
