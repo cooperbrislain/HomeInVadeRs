@@ -13,7 +13,7 @@ public class paintCanTrap : MonoBehaviour
             if (bucket != null)
             {
                 bucket.isKinematic = false;
-                Destroy(bucket.transform.parent.gameObject, 5);
+                Destroy(bucket.transform.parent.gameObject, 3);
             }
         }
 	}
