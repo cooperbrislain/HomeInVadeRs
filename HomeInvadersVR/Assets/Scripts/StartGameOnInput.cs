@@ -14,6 +14,9 @@ public class StartGameOnInput : MonoBehaviour {
 	void Update() {
 		if (Input.anyKeyDown) {
 			SceneManager.LoadScene(sceneToLoad);
-		}
+            SceneManager.LoadScene("Test", LoadSceneMode.Additive);
+            SceneManager.LoadScene("TestRoom", LoadSceneMode.Additive);
+
+        }
 	}
 }

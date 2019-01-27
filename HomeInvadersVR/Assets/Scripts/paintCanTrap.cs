@@ -10,8 +10,11 @@ public class paintCanTrap : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
         if (other.GetComponentInParent<EnemyAgent>() != null) {
-            bucket.isKinematic = false;
-			Destroy(bucket.transform.parent.gameObject, 5);
+            if (bucket != null)
+            {
+                bucket.isKinematic = false;
+                Destroy(bucket.transform.parent.gameObject, 5);
+            }
         }
 	}
 }

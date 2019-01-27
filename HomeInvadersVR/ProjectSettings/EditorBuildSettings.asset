@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TeleportOnNavMesh.unity
     guid: 0cab5fa27707fc84a8d9a0af95ae691d
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: 0760367d737db8f4ea444a6b98a2ac91
+  - enabled: 1
+    path: Assets/Scenes/TestRoom.unity
+    guid: 50d3524efb82244b89250b7fd64ddc96

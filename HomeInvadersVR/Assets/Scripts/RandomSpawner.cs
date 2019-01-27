@@ -12,7 +12,8 @@ public class RandomSpawner : MonoBehaviour
 	public class WaveData {
 		public GameObject[] spawnPrefabs;
 		public float spawnDelay;
-		public int baseSpawnCount;
+        public float spawnIndividualIntervalSecs;
+        public int baseSpawnCount;
 		public GameObject[] itemPrefabs;
 		public Vector3[] itemPositions;
 		public int itemCount;
@@ -51,10 +52,11 @@ public class RandomSpawner : MonoBehaviour
 				item.transform.SetParent(transform, true);
 			}
 
-			for (int i = 0; i < spawnCountPerWave; ++i) {
+            yield return new WaitForSeconds(currentWaveData.spawnDelay);
+
+            for (int i = 0; i < spawnCountPerWave; ++i) {
 				int slot = Random.Range(0, spawnPoints.Count);
 				Vector3 pos = spawnPoints[slot];
-				yield return new WaitForSeconds(currentWaveData.spawnDelay);
 
 				_prefabIndex %= currentWaveData.spawnPrefabs.Length;
 				GameObject prefab = currentWaveData.spawnPrefabs[_prefabIndex];
@@ -68,8 +70,9 @@ public class RandomSpawner : MonoBehaviour
 				}
 
 				yield return new WaitForSeconds(spawnIntervalSecs);
-			}
-			spawnCountPerWave *= spawnCountPerWaveChangeRate;
+                yield return new WaitForSeconds(currentWaveData.spawnIndividualIntervalSecs);
+            }
+            spawnCountPerWave *= spawnCountPerWaveChangeRate;
 			spawnIntervalSecs *= spawnIntervalSecsChangeRate;
 			_prefabIndex = 0;
 			wave++;
