@@ -17,6 +17,7 @@ public class RagdollController : MonoBehaviour {
 	public bool isRagdollEnabled = true;
 
 	private Rigidbody[] _rigidbodies;
+	private Animator _anim;
 
 	void Awake() {
 		if (body == null) {
@@ -29,6 +30,7 @@ public class RagdollController : MonoBehaviour {
 			startY = body.position.y;
 		}
 		_rigidbodies = GetComponentsInChildren<Rigidbody>(true);
+		_anim = GetComponentInChildren<Animator>();
 		if (!isRagdollEnabled) {
 			SetRagdollEnabled(false);
 		}
@@ -65,9 +67,8 @@ public class RagdollController : MonoBehaviour {
 		if (enemy != null) {
 			enemy.enabled = !enabled;
 		}
-		Animator anim = GetComponentInChildren<Animator>();
-		if (anim != null) {
-			anim.enabled = !enabled;
+		if (_anim != null) {
+			_anim.enabled = !enabled;
 		}
 	}
 }
