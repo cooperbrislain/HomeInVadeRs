@@ -757,11 +757,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114159013956780284, guid: 7211fadf606a43b469897a11a884b063,
-        type: 2}
-      propertyPath: waveData.Array.data[0].spawnDelay
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7211fadf606a43b469897a11a884b063, type: 2}
   m_IsPrefabParent: 0
@@ -2546,7 +2541,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4111448513608418, guid: 3d6350117626fe340bb66f94520512e7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 8.12
+      value: 8.62
       objectReference: {fileID: 0}
     - target: {fileID: 4111448513608418, guid: 3d6350117626fe340bb66f94520512e7, type: 2}
       propertyPath: m_LocalPosition.y
