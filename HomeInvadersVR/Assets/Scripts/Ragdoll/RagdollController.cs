@@ -65,5 +65,9 @@ public class RagdollController : MonoBehaviour {
 		if (enemy != null) {
 			enemy.enabled = !enabled;
 		}
+		Animator anim = GetComponentInChildren<Animator>();
+		if (anim != null) {
+			anim.enabled = !enabled;
+		}
 	}
 }
