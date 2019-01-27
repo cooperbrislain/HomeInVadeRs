@@ -25,8 +25,8 @@ public class Rope : MonoBehaviour
 			}
 			prevLink = newLink;
 		}
-	}
 	
+	}
 	// Update is called once per frame
 	void Update () {
 		
