@@ -75,6 +75,7 @@ public class GroundTrapPickup : VRTK_InteractableObject {
     {
         GameObject newTrap = Instantiate(GroundTrapPrefab);
         newTrap.transform.position = GroundPlacementObject.transform.position;
+        _placementValid = false;
 
         --Quanity;
         if (Quanity <= 0)

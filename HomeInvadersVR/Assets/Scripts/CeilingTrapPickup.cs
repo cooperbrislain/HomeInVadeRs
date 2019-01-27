@@ -50,16 +50,33 @@ public class CeilingTrapPickup : VRTK_InteractableObject
         base.StartUsing(usingObject);
 
         GetComponentInChildren<BoxCollider>().enabled = false;
-        usingObject.GetComponent<VRTK_Pointer>().Toggle(true);
+
+        usingObject.GetComponentInChildren<VRTK_BezierPointerRenderer>(true).enabled = false;
+        VRTK_StraightPointerRenderer renderer = usingObject.GetComponentInChildren<VRTK_StraightPointerRenderer>(true);
+        renderer.enabled = true;
+        VRTK_Pointer pointer = usingObject.GetComponent<VRTK_Pointer>();
+        pointer.pointerRenderer  = renderer;
+        pointer.targetListPolicy = GetComponent<VRTK_PolicyList>();
+        pointer.Toggle(true);
+
+
         ActivePickup = this;
-        GroundTrapPlacementPlane.GetInstance().gameObject.SetActive(true);
         TogglePlacementVisible(true);
     }
 
     public override void StopUsing(VRTK_InteractUse usingObject)
     {
         DisableUsing();
-        usingObject.GetComponent<VRTK_Pointer>().Toggle(false);
+
+        VRTK_Pointer pointer = usingObject.GetComponent<VRTK_Pointer>();
+        pointer.Toggle(false);
+        pointer.targetListPolicy = null;
+        usingObject.GetComponentInChildren<VRTK_StraightPointerRenderer>(true).enabled = false;
+        VRTK_BezierPointerRenderer renderer = usingObject.GetComponentInChildren<VRTK_BezierPointerRenderer>(true);
+        renderer.enabled = true;
+        pointer.pointerRenderer = renderer;
+        
+
 
         base.StopUsing(usingObject);
 
@@ -70,7 +87,6 @@ public class CeilingTrapPickup : VRTK_InteractableObject
     void DisableUsing()
     {
         TogglePlacementVisible(false);
-        GroundTrapPlacementPlane.GetInstance().gameObject.SetActive(false);
         GetComponentInChildren<BoxCollider>().enabled = true;
         ActivePickup = null;
     }
