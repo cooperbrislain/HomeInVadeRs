@@ -4,21 +4,12 @@ using UnityEngine;
 
 public class paintCanTrap : MonoBehaviour
 {
-	public Rigidbody bucket;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
+	public Rigidbody  bucket;
+    public GameObject placementLocation;
+
 	private void OnTriggerEnter(Collider other)
 	{
-			Debug.Log("entered");
-			bucket.isKinematic = false;
-	}
-
-	
-	// Update is called once per frame
-	void Update () {
-		
+        if (other.GetComponentInParent<EnemyAgent>() != null)
+            bucket.isKinematic = false;
 	}
 }

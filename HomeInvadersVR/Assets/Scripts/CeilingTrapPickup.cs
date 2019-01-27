@@ -1,37 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 using VRTK;
 
-public class GroundTrapPickup : VRTK_InteractableObject {
-    public static GroundTrapPickup ActivePickup = null;
+public class CeilingTrapPickup : VRTK_InteractableObject
+{
+    public static CeilingTrapPickup ActivePickup = null;
 
-    public  int        Quanity = 5;
-    public  GameObject GroundTrapPrefab;
+    public int        Quanity = 1;
+    public string     ActivationObjectTag;
+    public GameObject CeilingTrapPrefab;
+
     [System.NonSerialized]
-    public  GameObject GroundPlacementObject;
+    public GameObject CeilingPlacementObject;
 
     private bool _placementValid;
 
     // Use this for initialization
     void Start()
     {
-        GroundPlacementObject = Instantiate(GroundTrapPrefab);
-        GroundPlacementObject.GetComponent<BoxCollider>().enabled = false; // Disable the placement collider
+        CeilingPlacementObject = Instantiate(CeilingTrapPrefab);
+        CeilingPlacementObject.GetComponent<BoxCollider>().enabled = false; // Disable the placement collider
         TogglePlacementVisible(false);
     }
 
     public void TogglePlacementVisible(bool visible)
     {
-        MeshRenderer[] meshRenderers = GroundPlacementObject.GetComponentsInChildren<MeshRenderer>(true);
+        MeshRenderer[] meshRenderers = CeilingPlacementObject.GetComponentsInChildren<MeshRenderer>(true);
         foreach (MeshRenderer renderer in meshRenderers)
             renderer.enabled = visible;
     }
     public void PlacePreviewAt(RaycastHit hit)
     {
-        if (GroundPlacementObject != null)
+        if (CeilingPlacementObject != null)
         {
-            GroundPlacementObject.transform.position = hit.point;
+            CeilingPlacementObject.transform.position = hit.point;
             _placementValid = true;
         }
     }
@@ -73,12 +77,14 @@ public class GroundTrapPickup : VRTK_InteractableObject {
 
     void SpawnTrap()
     {
-        GameObject newTrap = Instantiate(GroundTrapPrefab);
-        newTrap.transform.position = GroundPlacementObject.transform.position;
+        GameObject newTrap = Instantiate(CeilingTrapPrefab);
+        newTrap.transform.position = CeilingPlacementObject.transform.position;
 
         --Quanity;
         if (Quanity <= 0)
             Destroy(gameObject);
+
+        _placementValid = false;
     }
 
 }

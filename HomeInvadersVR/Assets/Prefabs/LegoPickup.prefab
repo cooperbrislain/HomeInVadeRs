@@ -228,9 +228,10 @@ MonoBehaviour:
   isUsable: 1
   holdButtonToUse: 1
   useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 1
+  pointerActivatesUseAction: 0
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+  Quanity: 6
   GroundTrapPrefab: {fileID: 1005062449109746, guid: eb9086f1042f042a1b4885e4ea5c28cd,
     type: 2}
