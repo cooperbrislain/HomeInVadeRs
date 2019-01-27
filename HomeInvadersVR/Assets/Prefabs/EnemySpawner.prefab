@@ -62,7 +62,7 @@ MonoBehaviour:
     itemCount: 0
   - spawnPrefabs:
     - {fileID: 1740552702939276, guid: f1da3c4e3bc381841b61b31e6490dee7, type: 2}
-    spawnDelay: 30
+    spawnDelay: 10
     spawnIndividualIntervalSecs: 2
     baseSpawnCount: 0
     itemPrefabs: []
