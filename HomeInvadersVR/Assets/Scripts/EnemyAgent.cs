@@ -28,6 +28,7 @@ public class EnemyAgent : MonoBehaviour {
 	void OnDestroy() {
 		if (carriedItem != null) {
 			carriedItem.transform.parent = null;
+			carriedItem.GetComponent<Rigidbody>().isKinematic = true;
 		}
 		if (_delegator != null) {
 			_delegator.RemoveActiveAgent(this);
