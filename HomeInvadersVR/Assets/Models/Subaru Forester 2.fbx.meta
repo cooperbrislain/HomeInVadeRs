@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 011fc0954563544f6b32c3a0129a48a7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 640_001
+    100002: 640_002
+    100004: bonnet_ok_001
+    100006: boot_dam01_001
+    100008: boot_ok_001
+    100010: bump_fro01_001
+    100012: bump_rea01_001
+    100014: chassis_001
+    100016: D#1_001
+    100018: D#1_002
+    100020: door_lf_ok_001
+    100022: door_lf_ok_002
+    100024: door_lr_ok_001
+    100026: door_lr_ok_002
+    100028: FB_001
+    100030: FB_002
+    100032: FB_003
+    100034: FB_004
+    100036: FD Window_001
+    100038: FD Window_002
+    100040: Front Belts_001
+    100042: Front Belts_002
+    100044: Front Seat_001
+    100046: Front Seat_002
+    100048: glaspeed_001
+    100050: Group_001
+    100052: Group_002
+    100054: Group_003
+    100056: Group_004
+    100058: Group_005
+    100060: Group_006
+    100062: Group_007
+    100064: Group_008
+    100066: lights_001
+    100068: magnitola_001
+    100070: Plate 049_001
+    100072: Plate 049_002
+    100074: RD Window_001
+    100076: RD Window_002
+    100078: Side Marker Assembly_001
+    100080: Side Marker Assembly_002
+    100082: Side Marker_001
+    100084: Side Marker_002
+    100086: Side Markers Covers_001
+    100088: Side Markers Covers_002
+    100090: speed_001
+    100092: steeringok_001
+    100094: //RootNode
+    100096: wheel_001
+    100098: wheel_002
+    100100: wheel_003
+    100102: wheel_004
+    100104: windscre02_001
+    400000: 640_001
+    400002: 640_002
+    400004: bonnet_ok_001
+    400006: boot_dam01_001
+    400008: boot_ok_001
+    400010: bump_fro01_001
+    400012: bump_rea01_001
+    400014: chassis_001
+    400016: D#1_001
+    400018: D#1_002
+    400020: door_lf_ok_001
+    400022: door_lf_ok_002
+    400024: door_lr_ok_001
+    400026: door_lr_ok_002
+    400028: FB_001
+    400030: FB_002
+    400032: FB_003
+    400034: FB_004
+    400036: FD Window_001
+    400038: FD Window_002
+    400040: Front Belts_001
+    400042: Front Belts_002
+    400044: Front Seat_001
+    400046: Front Seat_002
+    400048: glaspeed_001
+    400050: Group_001
+    400052: Group_002
+    400054: Group_003
+    400056: Group_004
+    400058: Group_005
+    400060: Group_006
+    400062: Group_007
+    400064: Group_008
+    400066: lights_001
+    400068: magnitola_001
+    400070: Plate 049_001
+    400072: Plate 049_002
+    400074: RD Window_001
+    400076: RD Window_002
+    400078: Side Marker Assembly_001
+    400080: Side Marker Assembly_002
+    400082: Side Marker_001
+    400084: Side Marker_002
+    400086: Side Markers Covers_001
+    400088: Side Markers Covers_002
+    400090: speed_001
+    400092: steeringok_001
+    400094: //RootNode
+    400096: wheel_001
+    400098: wheel_002
+    400100: wheel_003
+    400102: wheel_004
+    400104: windscre02_001
+    2100000: No Name
+    2100002: dbl_chassis_008
+    2100004: dbl_chassis_003
+    2100006: dbl_Plate 049_001
+    2100008: dbl_Plate 049_002
+    2100010: dbl_Plate 049_003
+    2100012: dbl_Plate 049_004
+    2100014: dbl_Plate 049_005
+    2100016: dbl_chassis_017
+    2100018: dbl_chassis_002
+    2100020: dbl_chassis_016
+    2100022: dbl_glaspeed_001
+    2100024: dbl_windscre02_001
+    2100026: dbl_chassis_012
+    2100028: dbl_chassis_013
+    2100030: dbl_wheel_001
+    2100032: dbl_chassis_004
+    2100034: dbl_chassis_022
+    2100036: dbl_door_lr_ok_001
+    2100038: dbl_door_lf_ok_001
+    2100040: dbl_chassis_010
+    2100042: dbl_chassis_019
+    2100044: dbl_chassis_005
+    2100046: dbl_chassis_014
+    2100048: dbl_door_lf_ok_002
+    2100050: dbl_bump_rea01_001
+    2100052: dbl_chassis_009
+    2100054: dbl_boot_ok_001
+    2100056: dbl_chassis_011
+    2100058: dbl_chassis_001
+    2100060: dbl_chassis_025
+    2100062: dbl_chassis_018
+    2100064: dbl_speed_001
+    2100066: dbl_chassis_015
+    2100068: dbl_lights_001
+    2100070: dbl_chassis_006
+    2100072: dbl_chassis_027
+    2100074: dbl_chassis_023
+    2100076: dbl_magnitola_001
+    2100078: dbl_chassis_032
+    2100080: dbl_chassis_029
+    2100082: dbl_Side Marker Assembly_001
+    2100084: dbl_lights_002
+    2100086: dbl_chassis_024
+    2100088: dbl_chassis_007
+    2100090: dbl_chassis_020
+    2100092: dbl_chassis_021
+    2100094: dbl_chassis_026
+    2100096: dbl_chassis_028
+    2100098: dbl_chassis_030
+    2100100: dbl_chassis_031
+    2100102: dbl_chassis_033
+    2300000: 640_001
+    2300002: 640_002
+    2300004: bonnet_ok_001
+    2300006: boot_dam01_001
+    2300008: boot_ok_001
+    2300010: bump_fro01_001
+    2300012: bump_rea01_001
+    2300014: chassis_001
+    2300016: D#1_001
+    2300018: D#1_002
+    2300020: door_lf_ok_001
+    2300022: door_lf_ok_002
+    2300024: door_lr_ok_001
+    2300026: door_lr_ok_002
+    2300028: FB_001
+    2300030: FB_002
+    2300032: FB_003
+    2300034: FB_004
+    2300036: FD Window_001
+    2300038: FD Window_002
+    2300040: Front Belts_001
+    2300042: Front Belts_002
+    2300044: Front Seat_001
+    2300046: Front Seat_002
+    2300048: glaspeed_001
+    2300050: Group_001
+    2300052: Group_002
+    2300054: Group_003
+    2300056: Group_004
+    2300058: Group_005
+    2300060: Group_006
+    2300062: Group_007
+    2300064: Group_008
+    2300066: lights_001
+    2300068: magnitola_001
+    2300070: Plate 049_001
+    2300072: Plate 049_002
+    2300074: RD Window_001
+    2300076: RD Window_002
+    2300078: Side Marker Assembly_001
+    2300080: Side Marker Assembly_002
+    2300082: Side Marker_001
+    2300084: Side Marker_002
+    2300086: Side Markers Covers_001
+    2300088: Side Markers Covers_002
+    2300090: speed_001
+    2300092: steeringok_001
+    2300094: wheel_001
+    2300096: wheel_002
+    2300098: wheel_003
+    2300100: wheel_004
+    2300102: windscre02_001
+    3300000: 640_001
+    3300002: 640_002
+    3300004: bonnet_ok_001
+    3300006: boot_dam01_001
+    3300008: boot_ok_001
+    3300010: bump_fro01_001
+    3300012: bump_rea01_001
+    3300014: chassis_001
+    3300016: D#1_001
+    3300018: D#1_002
+    3300020: door_lf_ok_001
+    3300022: door_lf_ok_002
+    3300024: door_lr_ok_001
+    3300026: door_lr_ok_002
+    3300028: FB_001
+    3300030: FB_002
+    3300032: FB_003
+    3300034: FB_004
+    3300036: FD Window_001
+    3300038: FD Window_002
+    3300040: Front Belts_001
+    3300042: Front Belts_002
+    3300044: Front Seat_001
+    3300046: Front Seat_002
+    3300048: glaspeed_001
+    3300050: Group_001
+    3300052: Group_002
+    3300054: Group_003
+    3300056: Group_004
+    3300058: Group_005
+    3300060: Group_006
+    3300062: Group_007
+    3300064: Group_008
+    3300066: lights_001
+    3300068: magnitola_001
+    3300070: Plate 049_001
+    3300072: Plate 049_002
+    3300074: RD Window_001
+    3300076: RD Window_002
+    3300078: Side Marker Assembly_001
+    3300080: Side Marker Assembly_002
+    3300082: Side Marker_001
+    3300084: Side Marker_002
+    3300086: Side Markers Covers_001
+    3300088: Side Markers Covers_002
+    3300090: speed_001
+    3300092: steeringok_001
+    3300094: wheel_001
+    3300096: wheel_002
+    3300098: wheel_003
+    3300100: wheel_004
+    3300102: windscre02_001
+    4300000: Group_008
+    4300002: Group_007
+    4300004: Group_006
+    4300006: Group_005
+    4300008: Group_004
+    4300010: Group_003
+    4300012: Group_002
+    4300014: Group_001
+    4300016: 640_002
+    4300018: FB_004
+    4300020: FB_003
+    4300022: D#1_002
+    4300024: Plate 049_002
+    4300026: 640_001
+    4300028: FB_002
+    4300030: FB_001
+    4300032: D#1_001
+    4300034: Plate 049_001
+    4300036: steeringok_001
+    4300038: windscre02_001
+    4300040: wheel_004
+    4300042: wheel_003
+    4300044: bonnet_ok_001
+    4300046: wheel_002
+    4300048: RD Window_002
+    4300050: door_lr_ok_002
+    4300052: FD Window_002
+    4300054: door_lf_ok_002
+    4300056: RD Window_001
+    4300058: door_lr_ok_001
+    4300060: FD Window_001
+    4300062: door_lf_ok_001
+    4300064: bump_fro01_001
+    4300066: wheel_001
+    4300068: boot_ok_001
+    4300070: boot_dam01_001
+    4300072: bump_rea01_001
+    4300074: speed_001
+    4300076: magnitola_001
+    4300078: lights_001
+    4300080: glaspeed_001
+    4300082: Side Markers Covers_002
+    4300084: Side Marker Assembly_002
+    4300086: Side Marker_002
+    4300088: Side Markers Covers_001
+    4300090: Side Marker Assembly_001
+    4300092: Side Marker_001
+    4300094: Front Belts_002
+    4300096: Front Belts_001
+    4300098: Front Seat_002
+    4300100: Front Seat_001
+    4300102: chassis_001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
